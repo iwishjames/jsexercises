@@ -6,3 +6,5 @@ In other words, given: ``"listen"`` and ``["enlists" "google" "inlets" "banana"]
 ## Suggestions
 Start out by getting this working with discrete functions.
 If you feel comfortable with that, try to put all your functions, collections, etc, into an object.
+
+For my solution, please see the .js file within this folder.
