@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Raindrops - Javascript Exercise Solutions</title>
+    <script src=js/raindrops/raindrops.js></script>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body>
+    <p><a href="index.html">Home</a></p>
+    <h2>Raindrops</h2>
+    <p>Convert a number to a string, the contents of which depend on the number's factors.</p>
+
+    <ul>
+      <li>If the number has 3 as a factor, output <span class="cH">'Pling'</span>.</li>
+      <li>If the number has 5 as a factor, output <span class="cH">'Plang'</span>.</li>
+      <li>If the number has 7 as a factor, output <span class="cH">'Plong'</span>.</li>
+      <li>If the number does not have 3, 5, or 7 as a factor, just pass the number's digits straight through.</li>
+    </ul>
+
+    <br />
+
+    <h3>Examples</h3>
+    <ul>
+      <li>28's factors are 1, 2, 4, <strong>7</strong>, 14, 28.</li>
+    </ul>
+
+    <p>Start out by getting this working with discrete functions.
+    If you feel comfortable with that, try to put all your functions, collections, etc, into an object.</p>
+
+    <br />
+
+    <p>(Check the console for results)</p>
+    <p><a href="https://github.com/iwishjames/jsexercises/blob/master/js/raindrops/raindrops.js" target="_blank">My Solution Code</a></p>
+  </body>
+</html>
+
+
+- 28's factors are 1, 2, 4, **7**, 14, 28.
+  - In raindrop-speak, this would be a simple "Plong".
+- 30's factors are 1, 2, **3**, **5**, 6, 10, 15, 30.
+  - In raindrop-speak, this would be a "PlingPlang".
+- 34 has four factors: 1, 2, 17, and 34.
+  - In raindrop-speak, this would be "34".
